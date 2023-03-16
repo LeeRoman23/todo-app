@@ -1,0 +1,15 @@
+server:
+  port: 9091
+spring:
+  flyway:
+    enabled: true
+    out-of-order: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/todoapp?createDatabaseIfNotExist=true
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: validate
