@@ -7,6 +7,7 @@ import kz.roman.todoapp.model.request.CreateTodoRequest;
 import kz.roman.todoapp.model.request.UpdateTodoRequest;
 import kz.roman.todoapp.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

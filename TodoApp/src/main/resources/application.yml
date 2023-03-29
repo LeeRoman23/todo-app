@@ -13,3 +13,6 @@ spring:
     generate-ddl: true
     hibernate:
       ddl-auto: validate
+jwt:
+  jwtSecret: thisSecretKeyMustBeALotMoreSecuredThanItIsAndHopeItWillHelpToHaveMuchMoreSecuredSystem
+  jwtExpirationMs: 86400000
